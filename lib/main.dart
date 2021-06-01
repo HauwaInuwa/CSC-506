@@ -87,6 +87,60 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ]))),
                 ),
+                SizedBox(height: 20.0),
+                Padding(
+                  padding: const EdgeInsets.all(30.0),
+                  child: Container(
+                    height: 40.0,
+                    child: Material(
+                      borderRadius: BorderRadius.circular(20.0),
+                      shadowColor: Colors.lightGreen,
+                      color: Colors.lightGreen[900],
+                      elevation: 7.0,
+                      child: GestureDetector(
+                        // function when you tap i.e move to home page
+                        onTap: () {},
+                        child: Center(
+                          child: Text(
+                            'SIGN IN',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'Montserrat'),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 5.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(25.0),
+                  child: Container(
+                    height: 40.0,
+                    child: Material(
+                      borderRadius: BorderRadius.circular(20.0),
+                      shadowColor: Colors.lightGreen,
+                      color: Colors.white,
+                      elevation: 7.0,
+                      child: GestureDetector(
+                        // function when you tap i.e move to home page
+                        onTap: () {},
+                        child: Center(
+                          child: Text(
+                            'SIGN UP',
+                            style: TextStyle(
+                                color: Colors.lightGreen[900],
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'Montserrat'),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
               ]),
         )));
   }
