@@ -33,6 +33,28 @@ class _MyHomePageState extends State<MyHomePage> {
             border: Border.all(color: Colors.lightGreen),
             borderRadius: BorderRadius.circular(10.0),
           ),
+          child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Center(
+                  child: Container(
+                      padding: EdgeInsets.fromLTRB(30.0, 30.0, 15.0, 10.0),
+                      child: Text('CSC 506 Assignment',
+                          style: TextStyle(
+                              fontSize: 40.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.lightGreen[900]))),
+                ),
+                Center(
+                  child: Container(
+                      padding: EdgeInsets.fromLTRB(30.0, 30.0, 20.0, 10.0),
+                      child: Text('Sign in',
+                          style: TextStyle(
+                              fontSize: 40.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.lightGreen[900]))),
+                ),
+              ]),
         )));
   }
 }
