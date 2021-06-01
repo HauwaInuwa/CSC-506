@@ -54,6 +54,39 @@ class _MyHomePageState extends State<MyHomePage> {
                               fontWeight: FontWeight.bold,
                               color: Colors.lightGreen[900]))),
                 ),
+                Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Container(
+                      padding:
+                          EdgeInsets.only(top: 55.0, left: 50.0, right: 40.0),
+                      child: Center(
+                          child: Column(children: <Widget>[
+                        TextField(
+                            decoration: InputDecoration(
+                                labelText: 'Email',
+                                labelStyle: TextStyle(
+                                    fontFamily: 'Montserrat',
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.grey),
+                                focusedBorder: UnderlineInputBorder(
+                                    borderSide:
+                                        BorderSide(color: Colors.lightGreen)))),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        TextField(
+                          decoration: InputDecoration(
+                              labelText: 'Password',
+                              labelStyle: TextStyle(
+                                  fontFamily: 'Montserrat',
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.grey),
+                              focusedBorder: UnderlineInputBorder(
+                                  borderSide:
+                                      BorderSide(color: Colors.lightGreen))),
+                        ),
+                      ]))),
+                ),
               ]),
         )));
   }
