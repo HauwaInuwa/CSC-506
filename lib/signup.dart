@@ -98,6 +98,63 @@ class _SignupPageState extends State<SignupPage> {
                                     focusedBorder: UnderlineInputBorder(
                                         borderSide: BorderSide(
                                             color: Colors.lightGreen)))),
+                            SizedBox(
+                              height: 15.0,
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.all(25.0),
+                              child: Container(
+                                height: 40.0,
+                                child: Material(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  shadowColor: Colors.lightGreen,
+                                  color: Colors.white,
+                                  elevation: 7.0,
+                                  child: GestureDetector(
+                                    // function when you tap i.e move to home page
+                                    onTap: () {},
+                                    child: Center(
+                                      child: Text(
+                                        'SIGN UP',
+                                        style: TextStyle(
+                                            color: Colors.lightGreen[900],
+                                            fontWeight: FontWeight.bold,
+                                            fontFamily: 'Montserrat'),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 5.0,
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.all(25.0),
+                              child: Container(
+                                height: 40.0,
+                                decoration: BoxDecoration(
+                                    border: Border.all(
+                                        color: Colors.black,
+                                        style: BorderStyle.solid,
+                                        width: 3.0),
+                                    color: Colors.lightGreen[900],
+                                    borderRadius: BorderRadius.circular(20.0)),
+                                child: InkWell(
+                                  onTap: () {
+                                    Navigator.of(context).pop();
+                                  },
+                                  child: Center(
+                                    child: Text(
+                                      'Go Back',
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontFamily: 'Montserrat'),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            )
                           ]),
                         ),
                       ),
