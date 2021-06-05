@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
-//import 'package:heels/singup.dart';
 
 class MyHome extends StatefulWidget {
   @override
