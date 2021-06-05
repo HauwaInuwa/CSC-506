@@ -42,7 +42,106 @@ class ProfileApp extends StatelessWidget {
                         SizedBox(
                           height: 10.0,
                         ),
-                  
+                  Text(
+                          "Nakashiru Wali",
+                          style: TextStyle(
+                            fontSize: 22.0,
+                            color: Colors.white,
+                          ),
+                        ),
+                          SizedBox(
+                          height: 10.0,
+                        ), 
+
+                         Card(
+                          margin: EdgeInsets.symmetric(horizontal: 20.0,vertical: 5.0),
+                          clipBehavior: Clip.antiAlias,
+                          color: Colors.white,
+                          elevation: 5.0,
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 8.0,vertical: 22.0),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: Column(
+
+                                    children: [
+                                      Text(
+                                        "Address",
+                                        style: TextStyle(
+                                          color: Colors.redAccent,
+                                          fontSize: 22.0,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      SizedBox(
+                                        height: 5.0,
+                                      ),
+                                      Text(
+                                        "CS department MAU Yola",
+                                        style: TextStyle(
+                                          fontSize: 20.0,
+                                          color: Colors.pinkAccent,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                Expanded(
+                                  child: Column(
+
+                                    children: [
+                                      Text(
+                                        "Email",
+                                        style: TextStyle(
+                                          color: Colors.redAccent,
+                                          fontSize: 22.0,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      SizedBox(
+                                        height: 5.0,
+                                      ),
+                                      Text(
+                                        "nakashwali@gmail.com",
+                                        style: TextStyle(
+                                          fontSize: 20.0,
+                                          color: Colors.pinkAccent,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                Expanded(
+                                  child: Column(
+
+                                    children: [
+                                      Text(
+                                        "Phone Number",
+                                        style: TextStyle(
+                                          color: Colors.redAccent,
+                                          fontSize: 22.0,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      SizedBox(
+                                        height: 5.0,
+                                      ),
+                                      Text(
+                                        "08133334580",
+                                        style: TextStyle(
+                                          fontSize: 20.0,
+                                          color: Colors.pinkAccent,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        )
+                      
                       ]
                       )
                         )
