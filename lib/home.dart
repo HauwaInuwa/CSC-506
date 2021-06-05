@@ -63,11 +63,11 @@ class _MyHomeState extends State<MyHome> {
             color: Colors.blue,
           ),
           Text(
-            'Hello Big head \n Walida',
+            'This is our Assignment',
             style: TextStyle(color: Colors.lime, fontSize: 50),
           ),
           Text(
-            'Hello Big head \n Nakash',
+            'CSC 506 Assignment using Dart Programming Language',
             style: TextStyle(color: Colors.greenAccent, fontSize: 50),
           )
         ],
