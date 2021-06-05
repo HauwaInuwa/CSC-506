@@ -16,6 +16,43 @@ class ProfileApp extends StatelessWidget {
                         end: Alignment.bottomCenter,
                         colors: [Colors.deepOrange, Colors.pinkAccent]
                     )
-                ))])));
+                ),
+
+                 child: Container(
+                  width: double.infinity,
+                  height: 350.0,
+                  child: Center(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        CircleAvatar(
+                         /*  backgroundImage: NetworkImage(
+                            "https://www.trendrr.net/wp-content/uploads/2017/06/Deepika-Padukone-1.jpg",
+                          ), */
+                          child: Icon(
+                            Icons.person,
+                            size: 60,
+                            color: Colors.blue,
+                            
+                          ),
+                          radius: 50.0,
+                          backgroundColor: Colors.white54,
+                        ),
+                        SizedBox(
+                          height: 10.0,
+                        ),
+                  
+                      ]
+                      )
+                        )
+                      
+                        )
+                        
+                )
+                ]
+                )
+                )
+                );
                 }
                 }
