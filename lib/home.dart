@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
+import 'profile.dart';
 //import 'package:heels/singup.dart';
 
 class MyHome extends StatefulWidget {
@@ -40,7 +41,10 @@ class _MyHomeState extends State<MyHome> {
                 Spacer(),
                 InkWell(
                   child: Text('Profile'),
-                  onTap: () {},
+                  onTap: () {Navigator.push(
+                        context,
+                        new MaterialPageRoute(
+                            builder: (context) => ProfileApp()));},
                 ),
                 SizedBox(
                   height: 60,
