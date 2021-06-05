@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'signup.dart';
+import 'home.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: <String, WidgetBuilder>{
-        '/signup': (BuildContext context) => new SignupPage()
+        '/signup': (BuildContext context) => new SignupPage(),
+        '/home': (BuildContext context) => new MyHome()
       },
       home: new MyHomePage(),
     );
@@ -103,7 +105,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       elevation: 7.0,
                       child: GestureDetector(
                         // function when you tap i.e move to home page
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.of(context).pushNamed('/home');
+                        },
                         child: Center(
                           child: Text(
                             'SIGN IN',
