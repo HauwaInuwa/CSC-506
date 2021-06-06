@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
+import 'profile.dart';
+//import 'package:heels/singup.dart';
 
 class MyHome extends StatefulWidget {
   @override
@@ -11,7 +13,7 @@ class _MyHomeState extends State<MyHome> {
   Widget build(BuildContext context) {
     return new Scaffold(
       resizeToAvoidBottomInset: true,
-      backgroundColor: Colors.white38,
+      backgroundColor: Colors.teal,
       body: Column(
         children: [
           Container(
@@ -39,7 +41,12 @@ class _MyHomeState extends State<MyHome> {
                 Spacer(),
                 InkWell(
                   child: Text('Profile'),
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        new MaterialPageRoute(
+                            builder: (context) => ProfileApp()));
+                  },
                 ),
                 SizedBox(
                   height: 60,
@@ -62,11 +69,11 @@ class _MyHomeState extends State<MyHome> {
             color: Colors.blue,
           ),
           Text(
-            'Hello Big head \n Walida',
+            'This is our Assignment',
             style: TextStyle(color: Colors.lime, fontSize: 50),
           ),
           Text(
-            'Hello Big head \n Nakash',
+            'CSC 506 Assignment using Dart Programming Language',
             style: TextStyle(color: Colors.greenAccent, fontSize: 50),
           )
         ],
