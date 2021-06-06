@@ -33,14 +33,14 @@ class ProfileApp extends StatelessWidget {
                           ), */
                               child: Icon(
                                 Icons.person,
-                                size: 60,
+                                size: 80,
                                 color: Colors.blue,
                               ),
-                              radius: 50.0,
+                              radius: 60.0,
                               backgroundColor: Colors.white54,
                             ),
                             SizedBox(
-                              height: 10.0,
+                              height: 15.0,
                             ),
                             Text(
                               "Nakashiru Wali",
@@ -210,7 +210,7 @@ class ProfileApp extends StatelessWidget {
                           new MaterialPageRoute(
                               builder: (context) => MyHomePage()));
                     },
-                    child: Text('LOGOUT'),
+                    child: Text('RETURN TO HOME'),
                   ))
             ])));
   }
