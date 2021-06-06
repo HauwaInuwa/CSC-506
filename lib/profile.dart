@@ -183,9 +183,9 @@ class ProfileApp extends StatelessWidget {
                       Navigator.push(
                           context,
                           new MaterialPageRoute(
-                              builder: (context) => MyHomePage()));
+                              builder: (context) => MyHome()));
                     },
-                    child: Text('LOGOUT'),
+                    child: Text('HOME'),
 
                     /*
                   child: Ink(
@@ -200,6 +200,7 @@ class ProfileApp extends StatelessWidget {
                    
                     ), */
                   )),
+              SizedBox(height: 20),
               Container(
                   width: 300.00,
                   child: TextButton(
@@ -207,9 +208,9 @@ class ProfileApp extends StatelessWidget {
                       Navigator.push(
                           context,
                           new MaterialPageRoute(
-                              builder: (context) => MyHome()));
+                              builder: (context) => MyHomePage()));
                     },
-                    child: Text('Home'),
+                    child: Text('LOGOUT'),
                   ))
             ])));
   }
