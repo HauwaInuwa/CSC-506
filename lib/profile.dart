@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'main.dart';
 
 class ProfileApp extends StatelessWidget {
   @override
@@ -177,7 +178,12 @@ class ProfileApp extends StatelessWidget {
               Container(
                   width: 300.00,
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => MyHomePage()));
+                    },
                     child: Text('LOGOUT'),
 
                     /*
