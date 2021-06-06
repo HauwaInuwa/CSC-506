@@ -12,7 +12,7 @@ class _MyHomeState extends State<MyHome> {
   Widget build(BuildContext context) {
     return new Scaffold(
       resizeToAvoidBottomInset: true,
-      backgroundColor: Colors.teal[800],
+      backgroundColor: Colors.blue[800],
       body: Column(
         children: [
           Container(
@@ -65,10 +65,10 @@ class _MyHomeState extends State<MyHome> {
           ),
           Divider(
             height: 40,
-            color: Colors.teal[800],
+            color: Colors.blue[800],
           ),
           Text(
-            'This is our Assignment',
+            'This is our  Assignment',
             style: TextStyle(color: Colors.black, fontSize: 50),
           ),
           Text(
