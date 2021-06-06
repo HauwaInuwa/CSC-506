@@ -65,7 +65,7 @@ class _MyHomeState extends State<MyHome> {
           ),
           Divider(
             height: 40,
-            color: Colors.teal,
+            color: Colors.teal[800],
           ),
           Text(
             'This is our Assignment',
