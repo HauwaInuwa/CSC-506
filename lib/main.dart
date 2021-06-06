@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+1import 'package:flutter/material.dart';
 import 'signup.dart';
 import 'home.dart';
 
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
           height: 670,
           width: 670,
           decoration: BoxDecoration(
-            border: Border.all(color: Colors.lightGreen),
+            border: Border.all(color: Colors.blue),
             borderRadius: BorderRadius.circular(10.0),
           ),
           child: Column(
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           style: TextStyle(
                               fontSize: 40.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.lightGreen[900]))),
+                              color: Colors.blue[900]))),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(10.0),
