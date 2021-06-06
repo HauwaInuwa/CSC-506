@@ -12,7 +12,7 @@ class _MyHomeState extends State<MyHome> {
   Widget build(BuildContext context) {
     return new Scaffold(
       resizeToAvoidBottomInset: true,
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.teal[800],
       body: Column(
         children: [
           Container(
