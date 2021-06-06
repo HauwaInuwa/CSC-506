@@ -66,15 +66,15 @@ class _MyHomeState extends State<MyHome> {
           ),
           Divider(
             height: 40,
-            color: Colors.blue,
+            color: Colors.teal,
           ),
           Text(
             'This is our Assignment',
-            style: TextStyle(color: Colors.lime, fontSize: 50),
+            style: TextStyle(color: Colors.black, fontSize: 50),
           ),
           Text(
             'CSC 506 Assignment using Dart Programming Language',
-            style: TextStyle(color: Colors.greenAccent, fontSize: 50),
+            style: TextStyle(color: Colors.black, fontSize: 50),
           )
         ],
       ),
