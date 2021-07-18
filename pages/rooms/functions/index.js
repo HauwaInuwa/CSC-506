@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-// Note: You will edit this file in the follow up codelab about the Cloud Functions for Firebase.
+// Note: You will edit this file in the follow up codelab about the Cloud Functions For Firebase.
 
 // TODO(DEVELOPER): Import the Cloud Functions for Firebase and the Firebase Admin modules here.
 
