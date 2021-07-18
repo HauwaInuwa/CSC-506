@@ -2,7 +2,7 @@
 // xxxxxxxxxx Full Name Validation xxxxxxxxxx
 function checkUserFullName(){
     var userSurname = document.getElementById("userFullName").value;
-    var flag = false;
+    var flag = true;
     if(userSurname === ""){
         flag = true;
     }
